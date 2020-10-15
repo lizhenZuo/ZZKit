@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.name         = "ZZLKit"
   spec.summary      = "iOS开发总结."
   spec.description  = <<-DESC
