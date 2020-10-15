@@ -47,8 +47,8 @@
 		7843D7D72538322300BEDA03 /* ZZBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D7B22538322300BEDA03 /* ZZBaseCollectionViewCell.m */; };
 		7843D7D82538322300BEDA03 /* ZZTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D7B72538322300BEDA03 /* ZZTapView.m */; };
 		7843D7D92538322300BEDA03 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D7B82538322300BEDA03 /* ZZBaseViewController.m */; };
-		7843D7DD2538322C00BEDA03 /* zz_pod_release.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7843D7DB2538322C00BEDA03 /* zz_pod_release.sh */; };
 		7843D7E42538330200BEDA03 /* ZZLKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7843D7E32538330200BEDA03 /* ZZLKit.podspec */; };
+		78B6EC8F2538369700BB2742 /* zzl_pod_release.sh in Resources */ = {isa = PBXBuildFile; fileRef = 78B6EC8E2538369700BB2742 /* zzl_pod_release.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,8 +131,11 @@
 		7843D7B72538322300BEDA03 /* ZZTapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTapView.m; sourceTree = "<group>"; };
 		7843D7B82538322300BEDA03 /* ZZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
 		7843D7B92538322300BEDA03 /* ZZGlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGlobalDefines.h; sourceTree = "<group>"; };
-		7843D7DB2538322C00BEDA03 /* zz_pod_release.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = zz_pod_release.sh; path = ../../zz_pod_release.sh; sourceTree = "<group>"; };
 		7843D7E32538330200BEDA03 /* ZZLKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZZLKit.podspec; path = ../../ZZLKit.podspec; sourceTree = "<group>"; };
+		78B6EC8B2538355200BB2742 /* ZZUtilsKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUtilsKitHeader.h; sourceTree = "<group>"; };
+		78B6EC8C2538358D00BB2742 /* ZZUIBaseKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUIBaseKitHeader.h; sourceTree = "<group>"; };
+		78B6EC8D2538362000BB2742 /* ZZLKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZLKitHeader.h; sourceTree = "<group>"; };
+		78B6EC8E2538369700BB2742 /* zzl_pod_release.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = zzl_pod_release.sh; path = ../../zzl_pod_release.sh; sourceTree = "<group>"; };
 		BDBA1023EED71016AA2536D8 /* Pods-ZZLKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZLKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZZLKitDemo/Pods-ZZLKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E273A6FE6ECD200283AA3A61 /* Pods_ZZLKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZLKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -170,8 +173,8 @@
 		7843D747253831F800BEDA03 /* ZZLKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78B6EC8E2538369700BB2742 /* zzl_pod_release.sh */,
 				7843D7E32538330200BEDA03 /* ZZLKit.podspec */,
-				7843D7DB2538322C00BEDA03 /* zz_pod_release.sh */,
 				7843D7652538322300BEDA03 /* ZZLKit */,
 				7843D748253831F800BEDA03 /* AppDelegate.h */,
 				7843D749253831F800BEDA03 /* AppDelegate.m */,
@@ -195,6 +198,7 @@
 				7843D7A92538322300BEDA03 /* Utils */,
 				7843D7B02538322300BEDA03 /* UIBase */,
 				7843D7B92538322300BEDA03 /* ZZGlobalDefines.h */,
+				78B6EC8D2538362000BB2742 /* ZZLKitHeader.h */,
 			);
 			name = ZZLKit;
 			path = ../../ZZLKit;
@@ -203,22 +207,22 @@
 		7843D7662538322300BEDA03 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				7843D7672538322300BEDA03 /* UIImage */,
-				7843D76E2538322300BEDA03 /* Safe */,
-				7843D7712538322300BEDA03 /* NSDictionary */,
-				7843D7742538322300BEDA03 /* UILabel */,
-				7843D7772538322300BEDA03 /* UIButton */,
-				7843D77A2538322300BEDA03 /* UIView */,
-				7843D7812538322300BEDA03 /* Tabbar */,
-				7843D7842538322300BEDA03 /* NSData */,
-				7843D7892538322300BEDA03 /* UITextView */,
-				7843D78C2538322300BEDA03 /* UIDevice */,
-				7843D78F2538322300BEDA03 /* ZZKTCategoryKitHeader.h */,
-				7843D7902538322300BEDA03 /* NSString */,
 				7843D7972538322300BEDA03 /* CALayer */,
-				7843D79A2538322300BEDA03 /* NSNumber */,
-				7843D79D2538322300BEDA03 /* ViewController */,
+				7843D7842538322300BEDA03 /* NSData */,
 				7843D7A02538322300BEDA03 /* NSDate */,
+				7843D7712538322300BEDA03 /* NSDictionary */,
+				7843D79A2538322300BEDA03 /* NSNumber */,
+				7843D7902538322300BEDA03 /* NSString */,
+				7843D76E2538322300BEDA03 /* Safe */,
+				7843D7812538322300BEDA03 /* Tabbar */,
+				7843D7772538322300BEDA03 /* UIButton */,
+				7843D78C2538322300BEDA03 /* UIDevice */,
+				7843D7672538322300BEDA03 /* UIImage */,
+				7843D7742538322300BEDA03 /* UILabel */,
+				7843D7892538322300BEDA03 /* UITextView */,
+				7843D77A2538322300BEDA03 /* UIView */,
+				7843D79D2538322300BEDA03 /* ViewController */,
+				7843D78F2538322300BEDA03 /* ZZKTCategoryKitHeader.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -381,12 +385,13 @@
 		7843D7A92538322300BEDA03 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7843D7AA2538322300BEDA03 /* ZZPathUtils.m */,
-				7843D7AB2538322300BEDA03 /* ZZUtilities.m */,
-				7843D7AC2538322300BEDA03 /* ZZTimeUtils.m */,
 				7843D7AD2538322300BEDA03 /* ZZPathUtils.h */,
-				7843D7AE2538322300BEDA03 /* ZZUtilities.h */,
+				7843D7AA2538322300BEDA03 /* ZZPathUtils.m */,
 				7843D7AF2538322300BEDA03 /* ZZTimeUtils.h */,
+				7843D7AC2538322300BEDA03 /* ZZTimeUtils.m */,
+				7843D7AE2538322300BEDA03 /* ZZUtilities.h */,
+				7843D7AB2538322300BEDA03 /* ZZUtilities.m */,
+				78B6EC8B2538355200BB2742 /* ZZUtilsKitHeader.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -394,14 +399,15 @@
 		7843D7B02538322300BEDA03 /* UIBase */ = {
 			isa = PBXGroup;
 			children = (
-				7843D7B12538322300BEDA03 /* ZZBaseTableViewCell.m */,
-				7843D7B22538322300BEDA03 /* ZZBaseCollectionViewCell.m */,
-				7843D7B32538322300BEDA03 /* ZZBaseViewController.h */,
-				7843D7B42538322300BEDA03 /* ZZTapView.h */,
-				7843D7B52538322300BEDA03 /* ZZBaseTableViewCell.h */,
 				7843D7B62538322300BEDA03 /* ZZBaseCollectionViewCell.h */,
-				7843D7B72538322300BEDA03 /* ZZTapView.m */,
+				7843D7B22538322300BEDA03 /* ZZBaseCollectionViewCell.m */,
+				7843D7B52538322300BEDA03 /* ZZBaseTableViewCell.h */,
+				7843D7B12538322300BEDA03 /* ZZBaseTableViewCell.m */,
+				7843D7B32538322300BEDA03 /* ZZBaseViewController.h */,
 				7843D7B82538322300BEDA03 /* ZZBaseViewController.m */,
+				7843D7B42538322300BEDA03 /* ZZTapView.h */,
+				7843D7B72538322300BEDA03 /* ZZTapView.m */,
+				78B6EC8C2538358D00BB2742 /* ZZUIBaseKitHeader.h */,
 			);
 			path = UIBase;
 			sourceTree = "<group>";
@@ -480,8 +486,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7843D7DD2538322C00BEDA03 /* zz_pod_release.sh in Resources */,
 				7843D7E42538330200BEDA03 /* ZZLKit.podspec in Resources */,
+				78B6EC8F2538369700BB2742 /* zzl_pod_release.sh in Resources */,
 				7843D758253831F900BEDA03 /* LaunchScreen.storyboard in Resources */,
 				7843D755253831F900BEDA03 /* Assets.xcassets in Resources */,
 				7843D753253831F800BEDA03 /* Main.storyboard in Resources */,
