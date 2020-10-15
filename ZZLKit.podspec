@@ -18,6 +18,8 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "ZZLKit", "ZZLKit/**/*.{h,m}", "ZZLKit/**/ZZLKitHeader.h"
   
+  spec.public_header_files = 'ZZLKit/**/*.h'
+      
   spec.requires_arc = true
   
   spec.dependency 'YYKit', '~> 1.0.9'

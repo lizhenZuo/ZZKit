@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2589AD66322AF8E93FA3C0F0 /* Pods_ZZLKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E273A6FE6ECD200283AA3A61 /* Pods_ZZLKitDemo.framework */; };
 		7843D74A253831F800BEDA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D749253831F800BEDA03 /* AppDelegate.m */; };
 		7843D74D253831F800BEDA03 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D74C253831F800BEDA03 /* SceneDelegate.m */; };
 		7843D750253831F800BEDA03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D74F253831F800BEDA03 /* ViewController.m */; };
@@ -49,6 +48,7 @@
 		7843D7D92538322300BEDA03 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843D7B82538322300BEDA03 /* ZZBaseViewController.m */; };
 		7843D7E42538330200BEDA03 /* ZZLKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7843D7E32538330200BEDA03 /* ZZLKit.podspec */; };
 		78B6EC8F2538369700BB2742 /* zzl_pod_release.sh in Resources */ = {isa = PBXBuildFile; fileRef = 78B6EC8E2538369700BB2742 /* zzl_pod_release.sh */; };
+		D8DD23EC9BD7713A137202D6 /* libPods-ZZLKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 995605CFFCE67F24868A9F94 /* libPods-ZZLKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,8 +136,8 @@
 		78B6EC8C2538358D00BB2742 /* ZZUIBaseKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUIBaseKitHeader.h; sourceTree = "<group>"; };
 		78B6EC8D2538362000BB2742 /* ZZLKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZLKitHeader.h; sourceTree = "<group>"; };
 		78B6EC8E2538369700BB2742 /* zzl_pod_release.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = zzl_pod_release.sh; path = ../../zzl_pod_release.sh; sourceTree = "<group>"; };
+		995605CFFCE67F24868A9F94 /* libPods-ZZLKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZLKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBA1023EED71016AA2536D8 /* Pods-ZZLKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZLKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZZLKitDemo/Pods-ZZLKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E273A6FE6ECD200283AA3A61 /* Pods_ZZLKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZLKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2589AD66322AF8E93FA3C0F0 /* Pods_ZZLKitDemo.framework in Frameworks */,
+				D8DD23EC9BD7713A137202D6 /* libPods-ZZLKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +424,7 @@
 		DE9677A6D5B05DBD99679970 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E273A6FE6ECD200283AA3A61 /* Pods_ZZLKitDemo.framework */,
+				995605CFFCE67F24868A9F94 /* libPods-ZZLKitDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
