@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/lizhenZuo/ZZLKit.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "ZZLKit", "ZZLKit/**/*.{h,m}, 'ZZLKit/**/ZZKTCategoryKitHeader.h'"
+  spec.source_files  = "ZZLKit", "ZZLKit/**/*.{h,m}, 'ZZLKit/**/ZZLKitHeader.h'"
 
 end
