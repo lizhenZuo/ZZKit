@@ -6,12 +6,11 @@
 //
 
 #import "ZZTapView.h"
-//#import <YYKit/YYKit.h>
+#import <YYKit/YYKit.h>
 
 @implementation ZZTapView
 
 -(void)addSender:(ZZNoParamsBlock)block{
-    /*
     [self setUserInteractionEnabled:YES];
     UITapGestureRecognizer *tapgesture = [[UITapGestureRecognizer alloc] initWithActionBlock:^(id  _Nonnull sender) {
         if (block) {
@@ -19,7 +18,6 @@
         }
     }];
     [self addGestureRecognizer:tapgesture];
-     */
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
