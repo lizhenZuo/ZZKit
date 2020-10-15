@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.name         = "ZZLKit"
   spec.summary      = "iOS开发总结."
   spec.description  = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/lizhenZuo/ZZLKit.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "ZZLKit", "ZZLKit/**/*.{h,m}", "ZZLKit/**/**/*.{h,m}", "ZZLKit/**/**/**/*.{h,m}", "ZZLKit/ZZLKitHeader.h"
+  spec.source_files  = "ZZLKit", "ZZLKit/**/*.{h,m}", "ZZLKit/**/ZZLKitHeader.h"
   
   spec.requires_arc = true
 
