@@ -1,0 +1,6 @@
+framework module Pods_ZZLKitDemo {
+  umbrella header "Pods-ZZLKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
